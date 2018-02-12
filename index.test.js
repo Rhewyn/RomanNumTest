@@ -12,4 +12,9 @@ describe('convert roman numerals to numbers', function() {
     var result = index(num);
     expect(result).to.equal(1);
   });
+  it('should return 2 when II', function() {
+    var num = "II";
+    var result = index(num);
+    expect(result).to.equal(2);
+  });
 });

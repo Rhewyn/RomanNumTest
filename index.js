@@ -1,5 +1,10 @@
 function romanValue(num) {
-  num = 1;
+  if(num == "I") {
+    return 1;
+  }
+  else if(num == "II") {
+    return 2;
+  }
   return num;
 }
 
