@@ -1,5 +1,6 @@
-function returnNum(num){
+function romanValue(num) {
+  num = 1;
   return num;
 }
 
-module.exports = num;
+module.exports = romanValue;

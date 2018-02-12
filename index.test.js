@@ -1,11 +1,15 @@
-//write a function that returns a number.
 const chai = require('chai');
-var index = require('./test.js');
+var index = require('./index.js');
 var expect = chai.expect;
-describe('Object Exercise - index()', function() {
-  it('should return a number', function (){
-    var num = {};
-    index(num);
-    expect(num.weight).to.not.be.NaN;
+describe('convert roman numerals to numbers', function() {
+  it('should return a number', function () {
+    var num = "";
+    var result = index(num);
+    expect(result).to.not.be.NaN;
+  });
+  it('should return 1 when I', function () {
+    var num = "I";
+    var result = index(num);
+    expect(result).to.equal(1);
   });
 });
