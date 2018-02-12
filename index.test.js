@@ -22,4 +22,9 @@ describe('convert roman numerals to numbers', function() {
     var result = index(num);
     expect(result).to.equal(3);
   });
+  it('should return 4 when IV', function() {
+    var num = "IV";
+    var result = index(num);
+    expect (result).to.equal(4);
+  });
 });

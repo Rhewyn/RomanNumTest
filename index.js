@@ -8,6 +8,9 @@ function romanValue(num) {
   else if(num == "III") {
     return 3;
   }
+  else if(num == "IV") {
+    return 4;
+  }
   return num;
 }
 
