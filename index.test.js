@@ -17,4 +17,9 @@ describe('convert roman numerals to numbers', function() {
     var result = index(num);
     expect(result).to.equal(2);
   });
+  it('should return 3 when III', function() {
+    var num = "III";
+    var result = index(num);
+    expect(result).to.equal(3);
+  });
 });

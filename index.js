@@ -5,6 +5,9 @@ function romanValue(num) {
   else if(num == "II") {
     return 2;
   }
+  else if(num == "III") {
+    return 3;
+  }
   return num;
 }
 
